@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29319.158
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlignedMemoryManager", "AlignedMemoryManager\AlignedMemoryManager.csproj", "{A7FC5D43-B0A1-466A-A83B-FC2F0F4BA267}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{8066CF5B-BCFC-48DC-91CB-A5BB7318970F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7FC5D43-B0A1-466A-A83B-FC2F0F4BA267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7FC5D43-B0A1-466A-A83B-FC2F0F4BA267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7FC5D43-B0A1-466A-A83B-FC2F0F4BA267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7FC5D43-B0A1-466A-A83B-FC2F0F4BA267}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8066CF5B-BCFC-48DC-91CB-A5BB7318970F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8066CF5B-BCFC-48DC-91CB-A5BB7318970F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8066CF5B-BCFC-48DC-91CB-A5BB7318970F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8066CF5B-BCFC-48DC-91CB-A5BB7318970F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EFF9062-ECD3-45A9-BE7A-E3360CBDC99D}
+	EndGlobalSection
+EndGlobal
