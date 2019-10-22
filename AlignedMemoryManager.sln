@@ -3,14 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29319.158
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlignedMemoryManager", "AlignedMemoryManager\AlignedMemoryManager.csproj", "{A7FC5D43-B0A1-466A-A83B-FC2F0F4BA267}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlignedMemoryManager", "AlignedMemoryManager\AlignedMemoryManager.csproj", "{A7FC5D43-B0A1-466A-A83B-FC2F0F4BA267}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{8066CF5B-BCFC-48DC-91CB-A5BB7318970F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{8066CF5B-BCFC-48DC-91CB-A5BB7318970F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D59E4644-6585-493F-B095-5A963E10CEB3}"
 	ProjectSection(SolutionItems) = preProject
-		..\LICENSE = ..\LICENSE
-		..\README.md = ..\README.md
+		LICENSE = LICENSE
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global
