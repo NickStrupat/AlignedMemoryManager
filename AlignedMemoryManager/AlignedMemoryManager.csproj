@@ -3,11 +3,25 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.3</TargetFramework>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Authors>Nick Strupat</Authors>
+    <Product />
+    <Description>Get aligned `Memory&lt;T&gt;` using this library. Derived from `MemoryManager&lt;T&gt;`.</Description>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/NickStrupat/AlignedMemoryManager</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/NickStrupat/AlignedMemoryManager</RepositoryUrl>
+    <PackageTags>aligned-memory cache-line cacheline aligned alignment memory manager span</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
 	  <PackageReference Include="System.Memory" Version="4.5.3" />
 	  <PackageReference Include="MarshalAligned" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
